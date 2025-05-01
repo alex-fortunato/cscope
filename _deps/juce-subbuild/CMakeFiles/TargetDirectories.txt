@@ -1,0 +1,3 @@
+/Users/alexanderfortunato/Development/JUCE/cscope/_deps/juce-subbuild/CMakeFiles/juce-populate.dir
+/Users/alexanderfortunato/Development/JUCE/cscope/_deps/juce-subbuild/CMakeFiles/edit_cache.dir
+/Users/alexanderfortunato/Development/JUCE/cscope/_deps/juce-subbuild/CMakeFiles/rebuild_cache.dir
