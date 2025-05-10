@@ -9,7 +9,7 @@
 namespace BinaryData
 {
     extern const char*   interface_html;
-    const int            interface_htmlSize = 3564;
+    const int            interface_htmlSize = 3595;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
     const int namedResourceListSize = 1;

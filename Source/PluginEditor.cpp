@@ -15,7 +15,7 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor(
     addAndMakeVisible(webView);
     startTimer(30); // 30ms timer for sending audio data to JS
 
-  setSize(400, 300);
+  setSize(400, 400);
   setResizable(true, true);
   setResizeLimits(400, 300, 2000, 1500);
 }
@@ -98,7 +98,7 @@ void AudioPluginAudioProcessorEditor::sendAudioDataToJS()
 
   // Number of samples to send (downsample to improve performance)
   const int totalSamples = buffer.getNumSamples();
-  const int samplesToSend = 1024;
+  const int samplesToSend = 512;
   const int downsampleFactor = juce::jmax(1, totalSamples / samplesToSend);
 
   // Get channel pointers

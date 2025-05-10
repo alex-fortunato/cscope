@@ -22,18 +22,20 @@ static const unsigned char temp_binary_data_0[] =
 "      background-color: #000000;\n"
 "      overflow: hidden;\n"
 "      font-family: Arial, sans-serif;\n"
+"      position: relative;\n"
+"      width: 100%;\n"
 "      height: 100%;\n"
 "    }\n"
 "    #oscilloscope {\n"
 "      width: 100%;\n"
-"      height: 100vh;\n"
+"      height: 75vh;\n"
 "    }\n"
 "    #controls {\n"
 "      position: absolute;\n"
 "      top: 10px;\n"
 "      right: 10px;\n"
 "      color: #00ff00;\n"
-"      background: rgba(255, 0, 0, 0.5);\n"
+"      background: transparent;\n"
 "      padding: 10px;\n"
 "      border-radius: 5px;\n"
 "    }\n"
@@ -149,12 +151,8 @@ static const unsigned char temp_binary_data_0[] =
 "    requestAnimationFrame(drawFrame);\n"
 "  });\n"
 "</script>\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
 "</body>\n"
+"\n"
 "</html>";
 
 const char* interface_html = (const char*) temp_binary_data_0;
@@ -171,7 +169,7 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
 
     switch (hash)
     {
-        case 0xba16aef1:  numBytes = 3564; return interface_html;
+        case 0xba16aef1:  numBytes = 3595; return interface_html;
         default: break;
     }
 

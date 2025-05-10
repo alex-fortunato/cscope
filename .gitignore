@@ -1,6 +1,8 @@
+.idea/
+.DS_Store
 .cache/
 .cmake/
-._deps/
+_deps/
 /cmake
 /CMakeFiles/
 /libs
